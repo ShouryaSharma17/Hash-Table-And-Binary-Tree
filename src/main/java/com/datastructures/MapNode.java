@@ -49,4 +49,3 @@ public class MapNode<K, V> extends LinkedList implements INode<K> {
         return mapNodeString.toString();
     }
 }
-
