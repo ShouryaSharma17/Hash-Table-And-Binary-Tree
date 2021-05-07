@@ -1,7 +1,6 @@
 package com.datastructures;
-import java.security.Key;
 
-public class MapNode<K, V> implements INode<K> {
+public class MapNode<K, V> extends LinkedList implements INode<K> {
     K key;
     V value;
     MapNode<K,V> next;
@@ -50,3 +49,4 @@ public class MapNode<K, V> implements INode<K> {
         return mapNodeString.toString();
     }
 }
+

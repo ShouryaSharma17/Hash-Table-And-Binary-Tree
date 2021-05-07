@@ -1,7 +1,6 @@
 package com.datastructures;
 
 public class HashMap<K, V> {
-
     private final LinkedList linkedList;
 
     public  HashMap() {
@@ -22,7 +21,7 @@ public class HashMap<K, V> {
             mapNode.setValue(value);
     }
 
-    @Override
+
     public String toString() {
         return "HashMapNodes{" + linkedList + "}";
     }
